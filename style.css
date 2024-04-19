@@ -1,0 +1,205 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(1212.webp);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 50px;
+    background-color: grey;
+}
+
+nav h1 {
+    float: left;
+    line-height: 50px;
+    font-size: 1.5rem;
+    margin-top: 0.5%;
+    margin-left: 2.5%;
+    color: white;
+}
+
+nav ul {
+    float: right;
+    line-height: 50px;
+    font-size: 1.5rem;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    line-height: 50px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    list-style: none;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    border-radius: 2.5px;
+    border-color: black;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    background-color: blueviolet;
+    transition: 0.5s ease;
+}
+
+nav ul li a.active {
+    background-color: blueviolet;
+}
+
+.article h2 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    margin-top: 5%;
+    color: brown;
+    text-align: center;
+}
+
+.article h4 {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 8.5%;
+    margin-left: 2.5%;
+    margin-bottom: 0%;
+}
+
+.article h5 {
+    font-size: 2.5rem;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 0%;
+    margin-left: 2.5%;
+}
+
+.article a {
+    float: left;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    color: rgb(1, 8, 3);
+    border: 2.5px;
+    border-color: black;
+    margin-left: 2.5%;
+}
+
+.article .threee {
+    background-color: rgb(239, 145, 3);
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-top: 5%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+}
+
+.exp .exp1img,
+.exp .exp2img,
+.exp .exp3img {
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+.exp .exp1img {
+    background-image: url('cust.png');
+}
+
+.exp .exp2img {
+    background-image: url('18.png');
+}
+
+.exp .exp3img {
+    background-image: url('mec.png');
+}
+
+.exp-text {
+    margin: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.exp-text a {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.nooo h1 {
+    font-size: 1.5625rem;
+    margin-top: 5%;
+    color: black;
+    font-weight: bold;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.nooo .p12 {
+    font-size: 1.5625rem;
+    font-weight: bold;
+    margin-top: 2%;
+    color: black;
+    font-weight: 300;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.nooo .p13 {
+    font-size: 1.5625rem;
+    margin-top: 5%;
+    color: black;
+    font-weight: bold;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.nooo .p14 {
+    font-size: 1.25rem;
+    margin-top: 2%;
+    font-weight: bold;
+    color: black;
+    font-weight: 300;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -12.5%;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
